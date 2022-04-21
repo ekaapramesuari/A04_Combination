@@ -1,0 +1,179 @@
+/* Default Settings */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p, h1, li, a {
+  margin: 0;
+}
+
+/* Header */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#C1CFC0;
+  color:#11324D;
+}
+header .menu{
+  width:300px;
+  font-size:30px;
+  margin-left: 10px;
+}
+header .menu ul {
+  float: left;
+  padding-left: 0;
+}
+header .menu ul li{
+  list-style:none;
+  margin:10px 20px;
+  font-size:15px;
+  float: left;
+}
+header .menu ul li:hover{
+  cursor: pointer;
+}
+header .title{
+  width:500px;
+  background-color:#11324D;
+  text-align: center;
+  border-radius: 30px;
+  padding: 5px 20px;
+}
+header .title h1{
+  font-size:36px;
+  color:#C1CFC0;
+}
+header .image {
+  width:300px;
+  margin-right: 10px;
+}
+header img {
+  width:200px;
+  height:auto;
+}
+
+
+/* Top Main */
+main .top-main {
+  font-family: 'Poppins';
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-image: url(https://sayostudio.com/wp-content/uploads/2020/02/Earth-like-planet-gliese.jpg);
+  background-size: cover;
+  background-position: center left;
+  background-attachment: fixed;
+}
+main .top-main .left-side {
+  width: 700px;
+  margin: 100px 100px;
+  color: white;
+}
+main .top-main .left-side .title {
+  font-size: 64px;
+  padding: 0 30px;
+  text-shadow: 0 0 7px black;
+}
+main .top-main .left-side p {
+  font-size: 20px;
+  padding: 0 30px;
+  text-align: justify;
+  text-shadow: 0 0 7px black;
+}
+main .top-main .left-side .btn-start {
+  display: inline-block;
+  padding: 25px 82px;
+  background-color:#2ec4b6;
+  font-size:24px;
+  border-radius: 80px;
+  color:white;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+main .top-main .left-side .btn-start:hover {
+  background-color:#48cae4;
+  cursor: pointer;
+}
+/* Middle Main */
+main .mid-main {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 50px 0;
+}
+main .mid-main .judul{
+  margin-left:30px;
+  font-size: 20px;
+}
+main .mid-main .berita{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 30px;
+  margin: 10px 30px;
+  background-color: gainsboro;
+  border-radius: 25px;
+}
+main .mid-main .berita .contents{
+  margin:20px 30px;
+  width:200px;
+  text-align: center;
+}
+main .mid-main .berita .contents p{
+  font-size: 12px;
+  text-align: justify;
+  color: black;
+}
+main .mid-main .berita .contents img{
+  margin: 10px 0;
+}
+main .mid-main .berita .contents a{
+  text-decoration: none;
+}
+/* Bottom main */
+main .bot-main{
+  margin-left: 30px;
+}
+main .bot-main .contact-form{
+  margin:25px 0;
+}
+main .bot-main input,textarea{
+  width:400px;
+  margin:10px 0 30px 0;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+main .bot-main .contact-submit{
+  background-color:#dee7ec;
+  color:#5a5a5a;
+}
+
+
+/* Footer */
+footer {
+  background-color:#C1CFC0;
+  padding: 30px 0;
+  margin-top: 25px;
+  text-align: center;
+}  
+footer img {
+  width: 300px;
+}
+footer h1 {
+  color: #11324D;
+  font-size: 24px;
+}
+footer a {
+  display:block;
+  font-size:14px;
+  padding: 15px 0;
+  color:#117066;
+  text-decoration: none;
+}
+footer p {
+  color:#11324D;
+  text-align: center;
+  font-size:16px;
+}
