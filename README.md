@@ -1,5 +1,6 @@
 # A04_Combination
 Project Team A04 COMBINATION Progate
+
 https://ekaapramesuari.github.io/A04_Combination/
 
 Team Project with:
@@ -9,7 +10,8 @@ Team Project with:
 - Raisiya Nadhira Abhitah
 - Elliora Lim
 
-Thanks for your contribution! :tada:
+Thanks for your contributions! :tada:
 
 :sparkles: Have a nice day! :sparkles:
-![alt text](https://media1.giphy.com/media/W6dHvprT7oks6BpX5R/200.gif)
+
+![dance_party](https://media1.giphy.com/media/W6dHvprT7oks6BpX5R/200.gif)
